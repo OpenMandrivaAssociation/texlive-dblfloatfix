@@ -1,3 +1,9 @@
+# revision 17191
+# category Package
+# catalog-ctan /macros/latex/contrib/dblfloatfix
+# catalog-date 2010-03-09 12:54:42 +0100
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-dblfloatfix
 Version:	1.0
 Release:	1
@@ -40,6 +46,7 @@ and stfloats.
 %{_texmfdistdir}/tex/latex/dblfloatfix/dblfloatfix.sty
 %doc %{_texmfdistdir}/doc/latex/dblfloatfix/dblfloatfix.pdf
 %doc %{_texmfdistdir}/doc/latex/dblfloatfix/dblfloatfix.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ and stfloats.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
