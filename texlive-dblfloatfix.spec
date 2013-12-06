@@ -6,7 +6,7 @@
 # catalog-version 1.0a
 Name:		texlive-dblfloatfix
 Version:	1.0a
-Release:	4
+Release:	5
 Summary:	Fixes for twocolumn floats
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dblfloatfix
