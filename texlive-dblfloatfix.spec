@@ -1,6 +1,6 @@
 Name:		texlive-dblfloatfix
 Version:	28983
-Release:	1
+Release:	2
 Summary:	Fixes for twocolumn floats
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dblfloatfix
