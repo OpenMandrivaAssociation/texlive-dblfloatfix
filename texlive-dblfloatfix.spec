@@ -3,7 +3,7 @@ Version:	28983
 Release:	2
 Summary:	Fixes for twocolumn floats
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dblfloatfix
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/dblfloatfix
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dblfloatfix.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dblfloatfix.doc.r%{version}.tar.xz
